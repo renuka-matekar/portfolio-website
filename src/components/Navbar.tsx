@@ -105,7 +105,7 @@ export default function Navbar() {
             prefetch={true}
               download="Gayathri Devarasetty.docx"
               target="_blank"
-              href="/Gayatri_Devershetty.docx"
+              href="/Gayathri Devarasetty.docx"
               className="h-[45px] bg-[#5A3EEC] hover:bg-[#4a2ec6] text-white font-semibold px-6 py-3 rounded-full flex items-center gap-2 transition w-[130px] space-x-8"
             >
               Resume <Download size={16} />
@@ -180,7 +180,7 @@ export default function Navbar() {
                 <Link
                   prefetch={true}
                   target="_blank"
-                  href="/Gayatri_Devershetty.docx"
+                  href="/Gayathri Devarasetty.docx"
                   download="Gayathri Devarasetty.docx"
                   className="h-[45px] bg-[#5A3EEC] hover:bg-[#4a2ec6] text-white font-semibold px-6 py-3 rounded-full flex items-center gap-2 transition w-[142px]"
                 >
