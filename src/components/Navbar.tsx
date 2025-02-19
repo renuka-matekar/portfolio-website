@@ -71,7 +71,7 @@ export default function Navbar() {
               // text-xl font-semibold  hover:text-primary  bg-gradient-to-r from-blue-500 via-violet-500 to-pink-500  inline-block  bg-clip-text
               className="text-xl font-bold bg-gradient-to-r from-blue-500 via-violet-500 to-pink-500 inline-block text-transparent bg-clip-text"
             >
-              Gayatri Priya Devarshetty
+              Gayathri Priya Devarasetty
             </Link>
           </motion.div>
 
@@ -103,7 +103,7 @@ export default function Navbar() {
           >
             <Link
             prefetch={true}
-              download="Gayatri_Devershetty.docx"
+              download="Gayathri Devarasetty.docx"
               target="_blank"
               href="/Gayatri_Devershetty.docx"
               className="h-[45px] bg-[#5A3EEC] hover:bg-[#4a2ec6] text-white font-semibold px-6 py-3 rounded-full flex items-center gap-2 transition w-[130px] space-x-8"
@@ -181,7 +181,7 @@ export default function Navbar() {
                   prefetch={true}
                   target="_blank"
                   href="/Gayatri_Devershetty.docx"
-                  download="Gayatri_Devershetty.docx"
+                  download="Gayathri Devarasetty.docx"
                   className="h-[45px] bg-[#5A3EEC] hover:bg-[#4a2ec6] text-white font-semibold px-6 py-3 rounded-full flex items-center gap-2 transition w-[142px]"
                 >
                   Resume <Download size={16} />

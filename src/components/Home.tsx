@@ -21,7 +21,7 @@ export default function Hero() {
             <h2 className="text-4xl md:text-left text-center md:text-5xl lg:text-6xl font-bold mb-4">
               <span className="text-white">Hi, I&apos;m </span>
 
-              <span className="text-5xl font-bold bg-gradient-to-r from-blue-500 via-violet-500 to-pink-500 inline-block text-transparent bg-clip-text">
+              <span className="text-5xl  font-bold bg-gradient-to-r from-blue-500 via-violet-500 to-pink-500 inline-block text-transparent bg-clip-text">
                 {personalInfo.fname} {personalInfo.lname}
               </span>
             </h2>

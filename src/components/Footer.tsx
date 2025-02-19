@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="flex justify-between items-center">
           <div className="space-y-4">
             <h3 className="text-lg font-semibold bg-gradient-to-r from-blue-500 via-violet-500 to-pink-500 inline-block text-transparent bg-clip-text">
-              Gayatri Devarshetty
+              Gayathri Devarasetty
             </h3>
           </div>
 
