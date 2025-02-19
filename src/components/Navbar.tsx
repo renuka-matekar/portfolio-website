@@ -51,7 +51,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="fixed top-0 z-50 w-full bg-background">
+    <div className="fixed top-0 z-50 w-full bg-background border-border border-b">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="flex xs:h-24 mdlg:h-16 md:h-17 h-17 items-center justify-between gap-1">
           <motion.div
@@ -115,11 +115,12 @@ export default function Navbar() {
           {/* Mobile menu button */}
           <div className="flex md:hidden items-center gap-4">
             <button
-              className="text-muted-foreground hover:text-foreground transition-colors"
+            // text-muted-foreground hover:text-foreground transition-colors
+              className="text-white z-99"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             >
               {isMobileMenuOpen ? (
-                <X className="h-6 w-6" />
+                <X className="h-6 w-6 z-99" />
               ) : (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

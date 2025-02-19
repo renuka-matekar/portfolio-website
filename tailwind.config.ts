@@ -24,7 +24,18 @@ module.exports = {
       },
       height: {
         '17': '70px',
-        '20': '5rem', // Ensuring h-20 exists (default in Tailwind)
+        '20': '5rem', // Ensuring h-20 exists (default in Tailwind)\
+        '97': '400px',
+        '98': '470px', // Ensuring h-96 exists (default in Tailwind)
+      },
+      width: {
+        '97': '390px', // Ensuring h-96 exists (default in Tailwind)
+      },
+      padding: {
+        '46': '184px', // Ensuring p-20 exists (default in Tailwind)
+      },
+      zIndex: {
+        '99': '99',
       },
       backgroundImage: {
         "gradient-text": "linear-gradient(180deg, #000, #1a1a2e)",
@@ -33,7 +44,21 @@ module.exports = {
       maxWidth: {
         '8xl': '85rem', // Adjust value as needed (1rem = 16px)
       },
+      blur: {
+        '2xl': '8px', // Custom blur effect
+        '3xl': '12px', // Custom blur effect
+      },
+      opacity: {
+        30: '0.3', // Custom opacity level
+      },
+      boxShadow: {
+        '3xl': '0 30px 60px -15px rgba(0, 0, 0, 0.3)', // Wider & deeper
+        '4xl': '0 40px 80px -20px rgba(0, 0, 0, 0.35)', // Even bigger shadow
+        '5xl': '0 50px 100px -25px #9333ea', // Super soft & large shado
+      },
       colors: {
+        'custom-blue': '#2563eb',
+        'custom-purple': '#9333ea',
         "border-white/10": "rgba(255, 255, 255, 0.1)", // Custom border color
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -94,6 +119,7 @@ module.exports = {
         "fade-up": "fade-up 0.5s ease-out",
         "fade-in": "fade-in 0.5s ease-out",
         "slide-in": "slide-in 0.5s ease-out",
+        'pulse-fast': 'pulse 1.2s cubic-bezier(.4,0,.6,1) infinite', // Faster shimmer
       },
     },
   },
