@@ -1,7 +1,7 @@
+"use client";
 import Hero from "@/components/Home"
 import Projects from "@/components/Projects"
 import Skills from "@/components/Skills"
-import Contact from "@/components/Contact"
 import About from "@/components/About"
 import Education from "@/components/Education"
 import Experience from "@/components/Experience"
@@ -22,10 +22,6 @@ export default function Home() {
         <Education />
       </section>
 
-      <section id="certifications" >
-        <Certifications />
-      </section>
-      
       <section id="projects" >
         <Projects />
       </section>
@@ -37,10 +33,11 @@ export default function Home() {
       <section id="experience" >
         <Experience />
       </section>
-      
-      <section id="contact" >
-        <Contact />
+
+      <section id="certifications" >
+        <Certifications />
       </section>
+      
     </main>
   )
 }

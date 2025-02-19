@@ -1,5 +1,5 @@
 // src/components/ThemeToggle.tsx
-"use client"
+"use client";
 
 import { Moon, Sun } from "lucide-react"
 import { useTheme } from "next-themes"
@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button"
 import { motion } from "framer-motion"
 
 export function ThemeToggle() {
-  const { setTheme, theme } = useTheme()
+  const { setTheme, theme } = useTheme();
 
   return (
     <Button

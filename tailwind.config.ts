@@ -1,5 +1,5 @@
 // tailwind.config.js
-const { fontFamily } = require("tailwindcss/defaultTheme")
+import { fontFamily } from "tailwindcss/defaultTheme"
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -18,6 +18,14 @@ module.exports = {
       },
     },
     extend: {
+      screens: {
+        md: '768px', // Define or override md breakpoint
+        mdlg : '585px', // Define or override
+      },
+      height: {
+        '17': '70px',
+        '20': '5rem', // Ensuring h-20 exists (default in Tailwind)
+      },
       backgroundImage: {
         "gradient-text": "linear-gradient(180deg, #000, #1a1a2e)",
         // "gradient-text": "linear-gradient(to right, #3b82f6, #8b5cf6, #ec4899)",
@@ -89,5 +97,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [import("tailwindcss-animate")],
 }
