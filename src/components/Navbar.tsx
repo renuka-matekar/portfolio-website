@@ -60,6 +60,7 @@ export default function Navbar() {
             className="flex items-center"
           >
             <Link
+            prefetch={true}
               href="#home"
               onClick={(e) => {
                 e.preventDefault();
@@ -101,6 +102,7 @@ export default function Navbar() {
             className="hidden md:flex items-center ml-4"
           >
             <Link
+            prefetch={true}
               download="Gayatri_Devershetty.docx"
               target="_blank"
               href="/Gayatri_Devershetty.docx"
@@ -175,6 +177,7 @@ export default function Navbar() {
                 className="items-center "
               >
                 <Link
+                  prefetch={true}
                   target="_blank"
                   href="/Gayatri_Devershetty.docx"
                   download="Gayatri_Devershetty.docx"

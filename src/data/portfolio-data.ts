@@ -148,12 +148,12 @@ export const certificationdData = {
   sections: [
     {
       title: "Introduction to Business Analysis",
-      name: 'Introduction to BA.pdf',
+      name: 'Introduction to Business Analysis.pdf',
       platform: "Coursera",
       time: 'February-2025',
       description: `Introduction to Business Analysis is a foundational course designed to equip learners with essential skills in analyzing business needs, identifying solutions, and improving processes. It covers key concepts such as requirements gathering, stakeholder management, data analysis, and business process modeling. The course helps professionals develop problem-solving abilities and decision-making skills, making them valuable assets in project management and strategic planning. Ideal for aspiring business analysts, project managers, and IT professionals, this course provides a solid understanding of how businesses operate and how to drive efficiency through analysis.`,
       // link : 'https://coursera.org/share/42c029b19d51843da5f216ed6a8fa56e'
-      link: '/Coursera TBAAJGIS1T09 (1).pdf'
+      link: '/Introduction to Business Analysis.pdf'
     },
     {
      title: "Excel Basics for Data Analysis",
@@ -162,7 +162,7 @@ export const certificationdData = {
      time: 'February-2025',
       description: "Excel Basics for Data Analysis is a beginner-friendly course that introduces fundamental Excel skills for organizing, analyzing, and visualizing data. It covers essential functions, formulas, data formatting, sorting, filtering, pivot tables, and basic charts. Learners will gain hands-on experience in using Excel to clean, process, and interpret data efficiently. This course is ideal for professionals, students, and aspiring data analysts looking to build a strong foundation in Excel for data-driven decision-making.",
       // link : ''
-      link: '/Coursera EY599FO3FN1L.pdf'
+      link: '/Excel Basics for Data Analysis.pdf'
     },
     {
       title: "Crash Course on Python",
@@ -170,7 +170,7 @@ export const certificationdData = {
       platform: "Coursera",
       time: 'February-2025',
        description: "Crash Course on Python is an introductory course designed to teach the fundamentals of Python programming. It covers key concepts such as variables, data types, loops, functions, and error handling. Learners will gain hands-on experience in writing Python scripts, automating tasks, and solving real-world problems. This course is ideal for beginners, professionals, and aspiring programmers looking to build a strong foundation in Python for data analysis, automation, web development, or machine learning.",
-       link : '/Coursera 7JQS46CUC7I9.pdf'
+       link : '/Crash Course on Python.pdf'
       //  'https://coursera.org/share/cdf8fb7b4ae480a569ab2b21ec27cf75'
      },
      {
@@ -179,7 +179,7 @@ export const certificationdData = {
       platform: "Linkedin",
       time: 'February-2025',
        description: `Power BI Essential Training is a comprehensive course designed to help learners master Power BI for data visualization and business intelligence. It covers key concepts such as data importing, cleaning, transformation, DAX formulas, creating interactive dashboards, and sharing reports. Participants will gain hands-on experience in turning raw data into actionable insights using Power BI's powerful tools. This course is ideal for business analysts, data professionals, and anyone looking to enhance their data-driven decision-making skills.`,
-       link : '/CertificateOfCompletion_Power BI Essential Training.pdf'
+       link : '/Power BI Essential Training.pdf'
       //  'https://github.com/Gayuu-9x/GayathriPriyaDevarasetty-Portfolio/blob/main/CertificateOfCompletion_Power%20BI%20Essential%20Training%20(1).pdf'
      },
      {
@@ -188,7 +188,7 @@ export const certificationdData = {
       platform: "Microsoft and LinkedIn",
       time: 'February-2025',
        description: `Career Essentials in Data Analysis by Microsoft and LinkedIn is a beginner-friendly course designed to equip learners with fundamental data analysis skills. It covers key concepts such as data collection, cleaning, visualization, and interpretation using tools like Excel and Power BI. The course also provides insights into industry trends, career opportunities, and essential analytical skills needed for data-driven decision-making. Ideal for aspiring data analysts, professionals, and students, this course helps build a strong foundation for a career in data analysis.`,
-       link : '/CertificateOfCompletion_Career Essentials in Data Analysis by Microsoft and LinkedIn.pdf'
+       link : '/Career Essentials in Data Analysis by Microsoft and LinkedIn.pdf'
         // 'https://github.com/Gayuu-9x/GayathriPriyaDevarasetty-Portfolio/blob/main/CertificateOfCompletion_Career%20Essentials%20in%20Data%20Analysis%20by%20Microsoft%20and%20LinkedIn%20(1).pdf'
      },
      
