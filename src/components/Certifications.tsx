@@ -34,7 +34,7 @@ const Certifications = () => {
               </div>
 
               <Link
-                download={section.name}
+                // download={section.name}
                 href={section.link}
                 target="_blank"
                 rel="noopener noreferrer"
